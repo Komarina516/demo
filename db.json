@@ -1,14 +1,128 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "posts": [{
+    "total": 2,
+    "items": [{
+            "id": "CHID_1",
+            "PartyID": "CHID_1",
+            "OrganisationNameList": [{
+                    "NameValue": "Current Legal Name",
+                    "NameType": "Legal",
+                    "EffectiveStartDate": "2020-01-01"
+                }, {
+                    "NameValue": "Past Legal Name",
+                    "NameType": "Legal",
+                    "EffectiveStartDate": "2019-01-01",
+                    "EffectiveEndDate": "2019-12-31"
+                }, {
+                    "NameValue": "My Trading Company",
+                    "NameType": " Trading",
+                    "EffectiveStartDate": "2020-02-02"
+                }
+            ],
+            "OrganisationAddressList": [],
+            "OrganisationStatus": "Active",
+            "OrganisationContactList": [],
+            "PartyRelationshipList": [{
+                    "RelatedPartyID": "BKR_1",
+                    "EffectiveStartDate": "2020-01-02",
+                    "EffectiveEndDate": "2021-01-01",
+                    "PartyRelationshipType": "Broker"
+                }
+            ],
+            "OrganisationRegistrationList": [{
+                    "RegistrationType": "Lloyds Coverholder PIN",
+                    "RegistrationCode": "853167ABC",
+                    "Primary": "True"
+                }
+            ],
+            "PrimaryRegistrationType": "Lloyds Coverholder PIN",
+            "PrimaryRegistrationCode": "853167ABC",
+            "ApprovedAuthorityType": "Lloyds London",
+            "ClaimsAuthority": "False",
+            "LevelOfUnderwritingAuthorityType": "Full Authority",
+            "ClassOfBusinessList": [],
+            "TerritoryList": [{
+                    "CountryCode": "840",
+                    "EffectiveStartDate": "2018-06-06"
+                }
+            ],
+            "_links": [{
+                    "rel": "canonical",
+                    "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Coverholders/CHID_1"
+                }
+            ]
+        },
+		{
+            "id": "CHID_2",
+            "PartyID": "CHID_2",
+            "OrganisationNameList": [{
+                    "NameValue": "Current Legal Name",
+                    "NameType": "Legal",
+                    "EffectiveStartDate": "2020-01-01"
+                }, {
+                    "NameValue": "Past Legal Name",
+                    "NameType": "Legal",
+                    "EffectiveStartDate": "2019-01-01",
+                    "EffectiveEndDate": "2019-12-31"
+                }, {
+                    "NameValue": "My Trading Company",
+                    "NameType": " Trading",
+                    "EffectiveStartDate": "2020-02-02"
+                }
+            ],
+            "OrganisationAddressList": [],
+            "OrganisationStatus": "Active",
+            "OrganisationContactList": [],
+            "PartyRelationshipList": [{
+                    "RelatedPartyID": "BKR_1",
+                    "EffectiveStartDate": "2020-01-02",
+                    "EffectiveEndDate": "2021-01-01",
+                    "PartyRelationshipType": "Broker"
+                }
+            ],
+            "OrganisationRegistrationList": [{
+                    "RegistrationType": "Lloyds Coverholder PIN",
+                    "RegistrationCode": "853167ABC",
+                    "Primary": "True"
+                }
+            ],
+            "PrimaryRegistrationType": "Lloyds Coverholder PIN",
+            "PrimaryRegistrationCode": "853167ABC",
+            "ApprovedAuthorityType": "Lloyds London",
+            "ClaimsAuthority": "False",
+            "LevelOfUnderwritingAuthorityType": "Full Authority",
+            "ClassOfBusinessList": [],
+            "TerritoryList": [{
+                    "CountryCode": "840",
+                    "EffectiveStartDate": "2018-06-06"
+                }
+            ],
+            "_links": [{
+                    "rel": "canonical",
+                    "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Coverholders/CHID_2"
+                }
+            ]
+        }
+    ],
+    "_links": [{
+            "rel": "canonical",
+            "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Coverholders"
+        }
+    ]
+}
+
+    ],
+    "comments": [{
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }, {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
 }
