@@ -1,5 +1,6 @@
 {
-    "Coverholders": [{
+    "Coverholders": [
+	{
     "total": 2,
     "items": [{
             "id": "CHID_1",
@@ -112,6 +113,153 @@
 }
 
     ],
+	"Brokers": [
+	{
+            "total": 2,
+            "items": [
+			{
+                    "BrokerType": "Lloyds Registered",
+                    "BrokerCodeList": [{
+                            "Pseudonym": "BB",
+                            "Number": "578"
+                        }, {
+                            "Pseudonym": "BRE",
+                            "Number": "775"
+                        }
+                    ],
+                    "id": "Broker_1",
+                    "PartyID": "Broker_1",
+                    "OrganisationNameList": [{
+                            "NameValue": "Marsh Brokers Limited",
+                            "NameType": "Legal",
+                            "EffectiveStartDate": "2020-01-01"
+                        }, {
+                            "NameValue": "Past Legal Name",
+                            "NameType": "Legal",
+                            "EffectiveStartDate": "2019-01-01",
+                            "EffectiveEndDate": "2019-12-31",
+                        }
+                    ],
+                    "OrganisationAddressList": [],
+                    "OrganisationStatus": "Active",
+                    "OrganisationContactList": [{
+                            "ContactType": "ComplianceOfficer",
+                            "ContactValue": "Mr Compliance",
+                            "ContactName": "Mr Compliance",
+                            "ContactEmail": "Complaince@company.com",
+                            "EffectiveStartDate": "2020-01-02",
+                            "EffectiveEndDate": "2021-01-01",
+                            "ContactAddressList": [{
+                                    "AddressType": "Registered",
+                                    "AddressLine1": "Lloyds Building",
+                                    "AddressLine2": "1 Lime Street",
+                                    "AddressLine5": "London",
+                                    "PostalCode": "EC3M 7HA",
+                                    "CountryCodeISONumeric": "826"
+                                }
+                            ],
+                        }
+                    ],
+                    "PartyRelationshipList": [{
+                            "RelatedPartyID": "ro_1",
+                            "EffectiveStartDate": "2020-01-02",
+                            "EffectiveEndDate": "2021-01-01",
+                            "PartyRelationshipType": "Registered Office"
+                        }
+                    ],
+                    "OrganisationRegistrationList": [{
+                            "RegistrationType": "Lloyds Broker PIN",
+                            "RegistrationCode": "222222ABC",
+                            "Primary": "True"
+                        }
+                    ],
+                    "PrimaryRegistrationType": "Lloyds Broker PIN",
+                    "PrimaryRegistrationCode": "222222ABC",
+                    "ClassOfBusinessList": [],
+                    "TerritoryList": [],
+                    "_links": [{
+                            "rel": "canonical",
+                            "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Brokers/Broker_1"
+                        }
+                    ]
+            },
+			{
+                    "BrokerType": "Lloyds Registered",
+                    "BrokerCodeList": [{
+                            "Pseudonym": "BB",
+                            "Number": "578"
+                        }, {
+                            "Pseudonym": "BRE",
+                            "Number": "775"
+                        }
+                    ],
+                    "id": "Broker_2",
+                    "PartyID": "Broker_2",
+                    "OrganisationNameList": [{
+                            "NameValue": "Marsh Brokers Limited",
+                            "NameType": "Legal",
+                            "EffectiveStartDate": "2020-01-01"
+                        }, {
+                            "NameValue": "Past Legal Name",
+                            "NameType": "Legal",
+                            "EffectiveStartDate": "2019-01-01",
+                            "EffectiveEndDate": "2019-12-31",
+                        }
+                    ],
+                    "OrganisationAddressList": [],
+                    "OrganisationStatus": "Active",
+                    "OrganisationContactList": [{
+                            "ContactType": "ComplianceOfficer",
+                            "ContactValue": "Mr Compliance",
+                            "ContactName": "Mr Compliance",
+                            "ContactEmail": "Complaince@company.com",
+                            "EffectiveStartDate": "2020-01-02",
+                            "EffectiveEndDate": "2021-01-01",
+                            "ContactAddressList": [{
+                                    "AddressType": "Registered",
+                                    "AddressLine1": "Lloyds Building",
+                                    "AddressLine2": "1 Lime Street",
+                                    "AddressLine5": "London",
+                                    "PostalCode": "EC3M 7HA",
+                                    "CountryCodeISONumeric": "826"
+                                }
+                            ],
+                        }
+                    ],
+                    "PartyRelationshipList": [{
+                            "RelatedPartyID": "ro_1",
+                            "EffectiveStartDate": "2020-01-02",
+                            "EffectiveEndDate": "2021-01-01",
+                            "PartyRelationshipType": "Registered Office"
+                        }
+                    ],
+                    "OrganisationRegistrationList": [{
+                            "RegistrationType": "Lloyds Broker PIN",
+                            "RegistrationCode": "222222ABC",
+                            "Primary": "True"
+                        }
+                    ],
+                    "PrimaryRegistrationType": "Lloyds Broker PIN",
+                    "PrimaryRegistrationCode": "222222ABC",
+                    "ClassOfBusinessList": [],
+                    "TerritoryList": [],
+                    "_links": [{
+                            "rel": "canonical",
+                            "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Brokers/Broker_2"
+                        }
+                    ]
+            }
+        ],
+		
+            "_links": [{
+                    "rel": "canonical",
+                    "href": "https://api.londonmarketgroup.co.uk/Lloyds/MarketParticipantRegister/v2/Brokers"
+                }
+            ]
+    }
+    
+],
+	
     "comments": [{
             "id": 1,
             "body": "some comment",
